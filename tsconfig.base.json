@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "memory/Routes": ["apps/memory/src/app/remote-entry/entry.routes.ts"],
+      "tic-tac-toe/Routes": [
+        "apps/tic-tac-toe/src/app/remote-entry/entry.routes.ts"
+      ],
+      "typing-speed/Routes": [
+        "apps/typing-speed/src/app/remote-entry/entry.routes.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
