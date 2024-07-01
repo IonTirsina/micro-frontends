@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, NxWelcomeComponent],
+  imports: [],
   selector: 'micro-frontend-memory-entry',
-  template: `<micro-frontend-nx-welcome></micro-frontend-nx-welcome>`,
+  template: `Memory training`,
 })
 export class RemoteEntryComponent {}

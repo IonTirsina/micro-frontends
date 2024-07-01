@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, NxWelcomeComponent],
+  imports: [],
   selector: 'micro-frontend-typing-speed-entry',
-  template: `<micro-frontend-nx-welcome></micro-frontend-nx-welcome>`,
+  template: 'Typing Speed Test',
 })
 export class RemoteEntryComponent {}
